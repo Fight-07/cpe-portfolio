@@ -1,0 +1,192 @@
+    <!DOCTYPE html>
+    <html lang="th">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>หน้าแรก | สาขาวิชาวิศวกรรมคอมพิวเตอร์</title>
+    <style>
+    * { box-sizing: border-box; }
+    .header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 22px 30px 6px 30px;
+    height: 250px;
+    background:
+      radial-gradient(ellipse 90px 40px at 8% 12%, #ffffff 60%, transparent 62%),
+      radial-gradient(ellipse 70px 32px at 14% 8%, #ffffff 60%, transparent 62%),
+      radial-gradient(ellipse 100px 45px at 92% 18%, #ffffff 60%, transparent 62%),
+      radial-gradient(ellipse 60px 28px at 85% 25%, #ffffff 60%, transparent 62%),
+      #bfe4fb;
+}
+
+    body {
+        margin: 0;
+        font-family: "Segoe UI", "Tahoma", sans-serif;
+        background: #ffffff;
+    }
+    .header {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        padding: 22px 30px 6px 30px;
+    }
+
+    .logo {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background: radial-gradient(circle at 30% 30%, #7fd1ff, #0d6efd);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-weight: bold;
+        font-size: 11px;
+        text-align: center;
+        flex-shrink: 0;
+    }
+
+    .title h1 {
+        margin: 0;
+        font-size: 35px;
+        color: #0d6efd;
+        text-align: center;
+    }
+    .title p {
+        margin: 2px 0 0 0;
+        font-size: 50px;
+        color: #0d6efd;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .subtitle {
+        font-size: 11px;
+        color: #444;
+        padding: 0 30px 8px 30px;
+    }
+
+    nav.menu {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        padding: 0 30px 16px 30px;
+    }
+
+    nav.menu a {
+        background: #4dd0e1;
+        color: #06304f;
+        border: 1px solid #06304f;
+        border-radius: 4px;
+        padding: 3px 10px;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    nav.menu a:hover {
+        background: #00e5e5;
+    }
+
+    nav.menu a.active {
+        background: #ffce00;
+    }
+
+    
+    .idcard-wrap {
+        display: flex;
+        justify-content: center;
+        padding: 20px 10px 40px 10px;
+    }
+
+    .idcard {
+        width: 220px;
+        background: #eef2f6;
+        border: 4px solid #0d6efd;
+        border-radius: 6px;
+        overflow: hidden;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
+
+    .idcard .idnum {
+        background: #dbe6f0;
+        font-size: 11px;
+        font-weight: 700;
+        text-align: center;
+        padding: 5px;
+        color: #222;
+    }
+
+    .idcard .avatar {
+        width: 150px;
+        height: 180px;
+        margin: 10px auto;
+        border: 3px solid #d21f1f;
+        border-radius: 50% / 45%;
+        background: #dfe7ee;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .idcard .avatar svg {
+        width: 100px;
+        height: 100px;
+        fill: #9aa7b4;
+    }
+
+    .idcard .name {
+        background: #f6c9e0;
+        text-align: center;
+        font-size: 13px;
+        font-weight: bold;
+        color: #6a1b4d;
+        padding: 7px 4px;
+    }
+    .idcard .avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+    .banner{
+        width: 100px;
+    }
+    </style>
+    </head>
+    <body>
+
+    <div class="header">
+        <img src="cpee.png" width="200px">
+        <div class="title">
+        <h1>สาขาวิชาวิศวกรรมคอมพิวเตอร์</h1>
+        <p>Computer Engineering</p>
+        </div>
+    </div>
+        <marquee>สาขาวิศวกรรมคอมพิวเตอร์ คณะวิศวกรรมศาสตร์ มหาวิทยาลัยเทคโนโลยีราชมงคลพระนคร</marquee>
+    <nav class="menu">
+        <a href="homepage.html" target="frame2">Homepage</a>
+        <a href="aboutme.html" target="frame2">AboutMe</a>
+        <a href="gallery.html" target="frame2">Gallery</a>
+        <a href="PortFolio.html" target="frame2">PortFolio</a>
+        <a href="myschools.html" target="frame2">Myschools</a>
+        <a href="myfriends.html" target="frame2">Myfriends</a>
+        <a href="class2569.html" target="frame2">Class2569</a>
+        <a href="graph.html" target="frame2">Graph</a>
+        <a href="google-from.html" target="frame2">Google-from</a>
+    </nav>
+
+
+    <div class="idcard-wrap">
+        <div class="idcard">
+        <div class="idnum">ID:056950405204-8</div>
+    <div class="avatar">
+    <img src="fight .jpg" alt="">
+    </div>
+        <div class="name">นายพัทธพล บ้านกลาง</div>
+        </div>
+    </div>
+
+    </body>
+    </html>
